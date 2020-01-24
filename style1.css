@@ -1,0 +1,150 @@
+body {
+	width: 100%;
+	margin: 0;
+	background-color: #11797E;
+	font-family: "Open Sans";
+}
+
+
+/*css header*/
+
+header{
+	background-color: #94ECF0;
+	position: fixed;
+	display: grid;
+	height: 50px;
+	display: block;
+	width: 100%;
+	top:0px;
+	grid-column: 1fr 2fr 1fr;
+	z-index: 2;
+}
+
+#logo{
+	border-radius: 5px;
+	height: 40px;
+	position: relative;
+	top: 5px;
+	left: 5px;
+	float: left;
+}
+
+#pencarian{
+	float: left;
+	display: grid;
+	margin-left: 4%;
+	margin-top: 0.5%;
+	width: 60%;
+	grid-template-columns: 1fr 10fr;
+}
+
+label{
+	font-size: 25px;
+	margin-right: 8px;
+	padding-top: 5px;
+	font-family: "Open Sans";
+	font-size: 20px;
+	color: #11797E;
+}
+
+input{
+	margin-top: 6px;
+	border: none;
+	border-radius: 5px;
+	height: 25px;
+}
+
+#masuk{
+	float: right;
+	margin-right: 0.5%;
+	font-family: "Roboto Condensed"
+}
+
+li {
+	display: inline;
+}
+
+ul a{
+	border: solid;
+	border-color: #11797E;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #11797E;
+	background-color: #94ECF0;
+	padding: 7px;
+	margin: 2px;
+}
+
+a:hover {
+	border-color: #1CC3CB;
+	color: white;
+	background-color: #37DBE3;
+}
+
+h2{
+	color: white;
+	position: relative;
+	top: 150px;
+	margin-left: 25px;
+}
+
+/*css card*/
+
+.grid{
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	position: relative;
+	top: 160px;
+}
+
+.card{
+	display: inline-block;
+	position: relative;
+	left: 75px;
+	width: 200px;
+	height: 340px;
+	background-color: #1CC3CB;
+	border-radius: 35px;
+}
+
+.card img{
+	width: 200px;
+	height: 250px;
+	border-radius: 35px 35px 0px 0px;
+}
+
+.data{
+	display: block;
+	position: relative;
+	top: -20px;
+	color: white;
+}
+.data h4, h5 {
+	font-family: "Roboto Condensed";
+	position: relative;
+	left: 5px;
+	color: #94ECF0;
+}
+.data h5{
+	top: -20px;
+	padding-bottom: 5px;
+}
+
+.data .button{
+	font-family: "Open Sans";
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	color: #94ECF0;
+	position: relative;
+	top: -40px;
+	padding-top: 8px;
+	padding-bottom: 10px;
+	border-radius: 0px 0px 35px 35px;
+}
+
+.button:hover{
+	background-color: #37DBE3;
+	color: #11797E;
+}
