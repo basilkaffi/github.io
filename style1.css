@@ -312,3 +312,90 @@ h2{
 .ogenre #genre a:hover{
 	color:  #94ECF0;
 }
+
+.logo {
+  display: block;
+  position: relative;
+  top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.login-box, .signup-box {
+width: 320px;
+height: 390px;
+background: #37231F;
+color:#94ECF0;
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate(-50%, -35%);
+box-sizing: border-box;
+padding: 40px 30px;
+border-radius: 30px;
+}
+
+.signup-box{
+height: 540px;
+transform: translate(-50%, -25%);
+margin-bottom: 100px;
+}
+
+.login-box h1, .signup-box h1 {
+position: relative;
+top: -13px; 
+margin: 0;
+padding-bottom: 25px;
+text-align: center;
+font-size: 22px;
+}
+
+.login-box label, .signup-box label {
+margin: 0;
+padding: 0;
+font-weight: bold;
+display: block;
+}
+
+.login-box input,.signup-box input {
+width: 100%;
+margin-bottom: 20px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"], .signup-box input[type="text"], .signup-box input[type="password"] {
+border: none;
+border-bottom: 1px solid #94ECF0;
+background: transparent;
+outline: none;
+height: 40px;
+color: #94ECF0;
+font-size: 16px;
+}
+
+.login-box input[type="submit"], .signup-box input[type="submit"] {
+border: none;
+outline: none;
+height: 40px;
+background: #1F3437;
+color: #94ECF0;
+font-size: 18px;
+border-radius: 15px;
+}
+
+.login-box input[type="submit"]:hover,.signup-box input[type="submit"]:hover  {
+cursor: pointer;
+background: #11797E;
+color: #fff;
+}
+
+.login-box a {
+text-decoration: none;
+font-size: 15px;
+line-height: 20px;
+color:#11797E;
+}
+
+.login-box a:hover {
+color: #94ECF0;
+}
